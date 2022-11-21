@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="row">
+	<div class="col-xs-12">
+		<h2>A propos</h2>
+		<p>Bienvenue sur TodoApp, votre nouveau gestionnaire de tâches !</p>
+		{# <p>Vous pouvez <a href="{{ path('todo_list') }}">afficher la liste des tâches</a> ou ajouter tout de suite une nouvelle tâche :</p> #}
+
+		<h3>Nouvelle tâche</h3>
+
+
+        {# https://twig.symfony.com/doc/3.x/tags/include.html #}
+        {# {% include 'todo/_add_todo_form.html.twig' %} #}
+
+	</div>
+</div>
+
+{% endblock %}
